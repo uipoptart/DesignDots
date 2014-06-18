@@ -131,7 +131,6 @@
                             <constraint firstItem="V19-sF-vZF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" multiplier="4:3" constant="11" id="1BT-t8-RQG"/>
                             <constraint firstAttribute="centerY" secondItem="chn-Yb-FG0" secondAttribute="centerY" id="2hq-jj-wqP"/>
                             <constraint firstItem="MCW-cC-qQU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="12" id="3fG-RG-jxE"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="chn-Yb-FG0" secondAttribute="bottom" id="6z3-53-HWw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V19-sF-vZF" secondAttribute="bottom" constant="120" id="7o0-V5-309"/>
                             <constraint firstAttribute="trailing" secondItem="SxP-MF-5Zj" secondAttribute="trailing" constant="23" id="8Lz-bN-3Rh"/>
                             <constraint firstItem="Ux9-H7-aei" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="15" id="ECr-1P-iGJ"/>
@@ -150,7 +149,6 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="6z3-53-HWw"/>
                                 <exclude reference="J25-49-dHg"/>
                                 <exclude reference="TKR-Gj-k9k"/>
                                 <exclude reference="W8t-pH-abq"/>
@@ -161,10 +159,8 @@
                         <variation key="heightClass=compact">
                             <mask key="constraints">
                                 <exclude reference="ECr-1P-iGJ"/>
-                                <exclude reference="2hq-jj-wqP"/>
                                 <exclude reference="wdg-ed-8Yc"/>
                                 <exclude reference="3fG-RG-jxE"/>
-                                <include reference="6z3-53-HWw"/>
                                 <exclude reference="7o0-V5-309"/>
                                 <include reference="J25-49-dHg"/>
                                 <include reference="TKR-Gj-k9k"/>
