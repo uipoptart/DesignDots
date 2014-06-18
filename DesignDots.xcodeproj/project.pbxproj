@@ -13,6 +13,13 @@
 		762051DD1951126000607DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762051DB1951126000607DA7 /* Main.storyboard */; };
 		762051DF1951126000607DA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762051DE1951126000607DA7 /* Images.xcassets */; };
 		762051EB1951126000607DA7 /* DesignDotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 762051EA1951126000607DA7 /* DesignDotsTests.m */; };
+		762051FE195112CD00607DA7 /* DesignDotsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 762051FD195112CD00607DA7 /* DesignDotsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76205204195112CD00607DA7 /* DesignDotsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762051F9195112CD00607DA7 /* DesignDotsKit.framework */; };
+		7620520B195112CD00607DA7 /* DesignDotsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7620520A195112CD00607DA7 /* DesignDotsKitTests.m */; };
+		7620520E195112CD00607DA7 /* DesignDotsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762051F9195112CD00607DA7 /* DesignDotsKit.framework */; };
+		7620520F195112CD00607DA7 /* DesignDotsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 762051F9195112CD00607DA7 /* DesignDotsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7620521B1951130D00607DA7 /* NMOCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 762052191951130D00607DA7 /* NMOCircleView.h */; };
+		7620521C1951130D00607DA7 /* NMOCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7620521A1951130D00607DA7 /* NMOCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,42 @@
 			remoteGlobalIDString = 762051CD1951126000607DA7;
 			remoteInfo = DesignDots;
 		};
+		76205205195112CD00607DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762051C61951126000607DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762051F8195112CD00607DA7;
+			remoteInfo = DesignDotsKit;
+		};
+		7620520C195112CD00607DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762051C61951126000607DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762051F8195112CD00607DA7;
+			remoteInfo = DesignDotsKit;
+		};
+		76205210195112CD00607DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762051C61951126000607DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762051F8195112CD00607DA7;
+			remoteInfo = DesignDotsKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76205215195112CD00607DA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7620520F195112CD00607DA7 /* DesignDotsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		762051CE1951126000607DA7 /* DesignDots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignDots.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +80,14 @@
 		762051E41951126000607DA7 /* DesignDotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignDotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		762051E91951126000607DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		762051EA1951126000607DA7 /* DesignDotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignDotsTests.m; sourceTree = "<group>"; };
+		762051F9195112CD00607DA7 /* DesignDotsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignDotsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762051FC195112CD00607DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762051FD195112CD00607DA7 /* DesignDotsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignDotsKit.h; sourceTree = "<group>"; };
+		76205203195112CD00607DA7 /* DesignDotsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignDotsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76205209195112CD00607DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7620520A195112CD00607DA7 /* DesignDotsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignDotsKitTests.m; sourceTree = "<group>"; };
+		762052191951130D00607DA7 /* NMOCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMOCircleView.h; sourceTree = "<group>"; };
+		7620521A1951130D00607DA7 /* NMOCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMOCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7620520E195112CD00607DA7 /* DesignDotsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +103,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762051F5195112CD00607DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76205200195112CD00607DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76205204195112CD00607DA7 /* DesignDotsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +129,8 @@
 			children = (
 				762051D01951126000607DA7 /* DesignDots */,
 				762051E71951126000607DA7 /* DesignDotsTests */,
+				762051FA195112CD00607DA7 /* DesignDotsKit */,
+				76205207195112CD00607DA7 /* DesignDotsKitTests */,
 				762051CF1951126000607DA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +140,8 @@
 			children = (
 				762051CE1951126000607DA7 /* DesignDots.app */,
 				762051E41951126000607DA7 /* DesignDotsTests.xctest */,
+				762051F9195112CD00607DA7 /* DesignDotsKit.framework */,
+				76205203195112CD00607DA7 /* DesignDotsKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +154,8 @@
 				762051D81951126000607DA7 /* ViewController.h */,
 				762051D91951126000607DA7 /* ViewController.m */,
 				762051DB1951126000607DA7 /* Main.storyboard */,
+				762052191951130D00607DA7 /* NMOCircleView.h */,
+				7620521A1951130D00607DA7 /* NMOCircleView.m */,
 				762051DE1951126000607DA7 /* Images.xcassets */,
 				762051D11951126000607DA7 /* Supporting Files */,
 			);
@@ -116,7 +188,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		762051FA195112CD00607DA7 /* DesignDotsKit */ = {
+			isa = PBXGroup;
+			children = (
+				762051FD195112CD00607DA7 /* DesignDotsKit.h */,
+				762051FB195112CD00607DA7 /* Supporting Files */,
+			);
+			path = DesignDotsKit;
+			sourceTree = "<group>";
+		};
+		762051FB195112CD00607DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				762051FC195112CD00607DA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76205207195112CD00607DA7 /* DesignDotsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7620520A195112CD00607DA7 /* DesignDotsKitTests.m */,
+				76205208195112CD00607DA7 /* Supporting Files */,
+			);
+			path = DesignDotsKitTests;
+			sourceTree = "<group>";
+		};
+		76205208195112CD00607DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76205209195112CD00607DA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		762051F6195112CD00607DA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7620521B1951130D00607DA7 /* NMOCircleView.h in Headers */,
+				762051FE195112CD00607DA7 /* DesignDotsKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		762051CD1951126000607DA7 /* DesignDots */ = {
@@ -126,10 +244,13 @@
 				762051CA1951126000607DA7 /* Sources */,
 				762051CB1951126000607DA7 /* Frameworks */,
 				762051CC1951126000607DA7 /* Resources */,
+				76205215195112CD00607DA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7620520D195112CD00607DA7 /* PBXTargetDependency */,
+				76205211195112CD00607DA7 /* PBXTargetDependency */,
 			);
 			name = DesignDots;
 			productName = DesignDots;
@@ -154,6 +275,42 @@
 			productReference = 762051E41951126000607DA7 /* DesignDotsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		762051F8195112CD00607DA7 /* DesignDotsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76205212195112CD00607DA7 /* Build configuration list for PBXNativeTarget "DesignDotsKit" */;
+			buildPhases = (
+				762051F4195112CD00607DA7 /* Sources */,
+				762051F5195112CD00607DA7 /* Frameworks */,
+				762051F6195112CD00607DA7 /* Headers */,
+				762051F7195112CD00607DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignDotsKit;
+			productName = DesignDotsKit;
+			productReference = 762051F9195112CD00607DA7 /* DesignDotsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76205202195112CD00607DA7 /* DesignDotsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76205216195112CD00607DA7 /* Build configuration list for PBXNativeTarget "DesignDotsKitTests" */;
+			buildPhases = (
+				762051FF195112CD00607DA7 /* Sources */,
+				76205200195112CD00607DA7 /* Frameworks */,
+				76205201195112CD00607DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76205206195112CD00607DA7 /* PBXTargetDependency */,
+			);
+			name = DesignDotsKitTests;
+			productName = DesignDotsKitTests;
+			productReference = 76205203195112CD00607DA7 /* DesignDotsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +326,13 @@
 					762051E31951126000607DA7 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 762051CD1951126000607DA7;
+					};
+					762051F8195112CD00607DA7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					76205202195112CD00607DA7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 762051F8195112CD00607DA7;
 					};
 				};
 			};
@@ -187,6 +351,8 @@
 			targets = (
 				762051CD1951126000607DA7 /* DesignDots */,
 				762051E31951126000607DA7 /* DesignDotsTests */,
+				762051F8195112CD00607DA7 /* DesignDotsKit */,
+				76205202195112CD00607DA7 /* DesignDotsKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +368,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		762051E21951126000607DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762051F7195112CD00607DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76205201195112CD00607DA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,6 +409,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		762051F4195112CD00607DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7620521C1951130D00607DA7 /* NMOCircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762051FF195112CD00607DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7620520B195112CD00607DA7 /* DesignDotsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +432,21 @@
 			isa = PBXTargetDependency;
 			target = 762051CD1951126000607DA7 /* DesignDots */;
 			targetProxy = 762051E51951126000607DA7 /* PBXContainerItemProxy */;
+		};
+		76205206195112CD00607DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762051F8195112CD00607DA7 /* DesignDotsKit */;
+			targetProxy = 76205205195112CD00607DA7 /* PBXContainerItemProxy */;
+		};
+		7620520D195112CD00607DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762051F8195112CD00607DA7 /* DesignDotsKit */;
+			targetProxy = 7620520C195112CD00607DA7 /* PBXContainerItemProxy */;
+		};
+		76205211195112CD00607DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762051F8195112CD00607DA7 /* DesignDotsKit */;
+			targetProxy = 76205210195112CD00607DA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +598,80 @@
 			};
 			name = Release;
 		};
+		76205213195112CD00607DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignDotsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76205214195112CD00607DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DesignDotsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76205217195112CD00607DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignDotsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76205218195112CD00607DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DesignDotsKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +697,22 @@
 			buildConfigurations = (
 				762051F21951126000607DA7 /* Debug */,
 				762051F31951126000607DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76205212195112CD00607DA7 /* Build configuration list for PBXNativeTarget "DesignDotsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76205213195112CD00607DA7 /* Debug */,
+				76205214195112CD00607DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76205216195112CD00607DA7 /* Build configuration list for PBXNativeTarget "DesignDotsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76205217195112CD00607DA7 /* Debug */,
+				76205218195112CD00607DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
