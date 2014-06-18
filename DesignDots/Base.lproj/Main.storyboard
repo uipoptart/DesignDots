@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6162" systemVersion="14A238h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6160"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,7 +16,164 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chn-Yb-FG0" customClass="NMOCircleView">
+                                <rect key="frame" x="140" y="140" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.38823529410000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="200" height="200"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SxP-MF-5Zj" customClass="NMOCircleView">
+                                <rect key="frame" x="337" y="73" width="120" height="120"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.37059276196348062" green="0.71734067426895831" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.90196079019999997" green="0.6958291609599857" blue="0.42904672686529327" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="120" height="120"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ux9-H7-aei" customClass="NMOCircleView">
+                                <rect key="frame" x="65" y="15" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="80" height="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.36224603038611081" green="1" blue="0.90234264452642621" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.75689754559818689" green="0.61003037124937798" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V19-sF-vZF" customClass="NMOCircleView">
+                                <rect key="frame" x="11" y="300" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="60" height="60"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.88307234677853563" green="1" blue="0.66518003347716803" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="1" green="0.061101189428535152" blue="0.07492040973636882" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9gz-m7-6mh" customClass="NMOCircleView">
+                                <rect key="frame" x="26" y="380" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="70" height="70"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.21949578124762747" green="0.61158790024630538" blue="0.30904904042428971" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.55237449842713571" green="0.92231758004926112" blue="0.25722564885635646" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCW-cC-qQU" customClass="NMOCircleView">
+                                <rect key="frame" x="360" y="12" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.31897649210000001" green="0.52265426749999999" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.1098039225" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="size">
+                                        <size key="value" width="40" height="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V19-sF-vZF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" multiplier="4:3" constant="11" id="1BT-t8-RQG"/>
+                            <constraint firstAttribute="centerY" secondItem="chn-Yb-FG0" secondAttribute="centerY" id="2hq-jj-wqP"/>
+                            <constraint firstItem="MCW-cC-qQU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="12" id="3fG-RG-jxE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="chn-Yb-FG0" secondAttribute="bottom" id="6z3-53-HWw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V19-sF-vZF" secondAttribute="bottom" constant="120" id="7o0-V5-309"/>
+                            <constraint firstAttribute="trailing" secondItem="SxP-MF-5Zj" secondAttribute="trailing" constant="23" id="8Lz-bN-3Rh"/>
+                            <constraint firstItem="Ux9-H7-aei" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="15" id="ECr-1P-iGJ"/>
+                            <constraint firstAttribute="centerX" secondItem="chn-Yb-FG0" secondAttribute="centerX" id="FuM-sP-73N"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9gz-m7-6mh" secondAttribute="bottom" id="J25-49-dHg"/>
+                            <constraint firstItem="Ux9-H7-aei" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="65" id="Nmp-AE-tn5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ux9-H7-aei" secondAttribute="bottom" id="TKR-Gj-k9k"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MCW-cC-qQU" secondAttribute="bottom" id="W8t-pH-abq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SxP-MF-5Zj" secondAttribute="bottom" id="adY-6O-ZOv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V19-sF-vZF" secondAttribute="bottom" id="dB3-dc-zxs"/>
+                            <constraint firstAttribute="trailing" secondItem="MCW-cC-qQU" secondAttribute="trailing" constant="80" id="e83-FM-cQG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9gz-m7-6mh" secondAttribute="bottom" constant="30" id="kvf-Ea-JS0"/>
+                            <constraint firstItem="9gz-m7-6mh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" multiplier="4:3" constant="26" id="nsk-xz-G95"/>
+                            <constraint firstItem="SxP-MF-5Zj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="73" id="wdg-ed-8Yc"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6z3-53-HWw"/>
+                                <exclude reference="J25-49-dHg"/>
+                                <exclude reference="TKR-Gj-k9k"/>
+                                <exclude reference="W8t-pH-abq"/>
+                                <exclude reference="adY-6O-ZOv"/>
+                                <exclude reference="dB3-dc-zxs"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="ECr-1P-iGJ"/>
+                                <exclude reference="2hq-jj-wqP"/>
+                                <exclude reference="wdg-ed-8Yc"/>
+                                <exclude reference="3fG-RG-jxE"/>
+                                <include reference="6z3-53-HWw"/>
+                                <exclude reference="7o0-V5-309"/>
+                                <include reference="J25-49-dHg"/>
+                                <include reference="TKR-Gj-k9k"/>
+                                <include reference="W8t-pH-abq"/>
+                                <include reference="adY-6O-ZOv"/>
+                                <include reference="dB3-dc-zxs"/>
+                                <exclude reference="kvf-Ea-JS0"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
